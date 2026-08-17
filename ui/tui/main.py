@@ -3,7 +3,10 @@ import os
 from pathlib import Path
 
 # Add the root directory to sys.path so we can import 'ui' and 'engine'
-project_root = Path(__file__).resolve().parent.parent.parent
+if getattr(sys, 'frozen', False):
+    project_root = Path(sys._MEIPASS)
+else:
+    project_root = Path(__file__).resolve().parent.parent.parent
 sys.path.append(str(project_root))
 from rich.progress import Progress, SpinnerColumn, TextColumn, BarColumn, TaskProgressColumn
 from rich.console import Console

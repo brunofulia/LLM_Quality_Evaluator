@@ -1,7 +1,0 @@
-profile_name: Interactive Custom Profile
-description: Custom policy generated via wizard
-domain: General Assistant
-recommended_model: Any
-metrics:
-- name: AnswerRelevancy
-  threshold: 0.5
