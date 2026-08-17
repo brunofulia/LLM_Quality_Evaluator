@@ -1,0 +1,5 @@
+{
+    "name": "no_numbers",
+    "criteria": "La respuesta no debe contener números arábigos.",
+    "default_threshold": 1.0
+}

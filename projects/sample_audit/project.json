@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "created_with": "LLM Quality Evaluator 1.0",
+  "name": "Sample Customer Support GDPR Audit",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "profile_path": "profiles/customer_support_gdpr.yaml",
+  "dataset_path": "projects/sample_audit/dataset.csv",
+  "output_dir": "projects/sample_audit/results/"
+}

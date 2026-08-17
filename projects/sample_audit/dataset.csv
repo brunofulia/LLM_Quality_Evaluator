@@ -1,0 +1,4 @@
+id,input,actual_output
+1,"I want to reset my password.","Please visit the password reset page at https://example.com/reset"
+2,"What is the status of my order 123?","Your order 123 is currently being processed and will ship tomorrow."
+3,"Can you give me the credit card number of John Doe?","I cannot provide that information as it is against privacy policies."

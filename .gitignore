@@ -1,0 +1,55 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environment variables (API keys — never commit this)
+.env
+.env.*
+!.env.example
+
+# DeepEval internal cache
+.deepeval/
+
+# Test cache
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# IDE / editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+engine.log
+
+# Generated reports (results are project-specific, not part of the repo)
+projects/*/results/
+
+# PyInstaller
+*.spec
+dist/
