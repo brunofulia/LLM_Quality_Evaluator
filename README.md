@@ -6,8 +6,8 @@
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
 ![DeepEval](https://img.shields.io/badge/Powered%20by-DeepEval-purple)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Status-v2.0%20Stable-brightgreen)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
+[![Release](https://img.shields.io/github/v/release/brunofulia/LLM_Quality_Evaluator?label=Download&color=brightgreen)](https://github.com/brunofulia/LLM_Quality_Evaluator/releases/latest)
+![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
 
 ---
 
@@ -46,6 +46,25 @@ Whether you need to spot-check a single LLM response or run a full compliance au
 - 🔌 **Multi-Provider** — OpenAI, Anthropic, Google Gemini, Groq, and a Mock provider for offline testing
 - 🏛️ **Clean Architecture** — Engine is 100% decoupled from the UI; reusable as a standalone Python library
 - 🖥️ **CLI / TUI Mode** — Full-featured interactive terminal interface for power users and CI pipelines
+
+---
+
+## ⬇️ Download & Run — No Python Required
+
+> **For non-technical users:** Download the pre-compiled Windows executable and run it directly — no Python, no terminal, no installation needed.
+
+| Platform | Download | Notes |
+|---|---|---|
+| **Windows (x64)** | [**📥 Download v2.0 (.zip)**](https://github.com/brunofulia/LLM_Quality_Evaluator/releases/latest) | Extract and run `LLM_Quality_Evaluator.exe` |
+
+### Steps
+1. Go to the [**Releases page**](https://github.com/brunofulia/LLM_Quality_Evaluator/releases/latest)
+2. Download `LLM_Quality_Evaluator_v2.0_Windows.zip`
+3. Extract the ZIP to any folder on your machine
+4. Double-click **`LLM_Quality_Evaluator.exe`** inside the extracted folder
+5. On first launch: select your **Provider**, enter your **API Key**, and click **Validate**
+
+> **Note:** Windows Defender SmartScreen may show a warning on first run ("Unknown publisher"). Click **"More info" → "Run anyway"** — the app is safe and open source.
 
 ---
 
@@ -238,7 +257,7 @@ A ready-to-use example dataset is available at [`projects/sample_audit/`](projec
 | Version | Description | Status |
 |---|---|---|
 | **v1.0** | Core engine + Rich CLI / TUI interactive interface | ✅ Released |
-| **v2.0** | Desktop GUI workbench (CustomTkinter) | ✅ Released |
+| **v2.0** | Desktop GUI workbench (CustomTkinter) | [✅ Released — Download](https://github.com/brunofulia/LLM_Quality_Evaluator/releases/latest) |
 | **v3.0** | Evaluation history & run comparison, PDF export, plugin system | 🔜 Planned |
 
 ---
