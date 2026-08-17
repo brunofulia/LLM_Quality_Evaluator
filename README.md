@@ -72,11 +72,11 @@ Whether you need to spot-check a single LLM response or run a full compliance au
 
 **Tab 1 — Manual Sandbox:** Test individual prompt/response pairs and get immediate metric feedback.
 
-![Manual Sandbox Tab](docs/screenshots/screenshot_tab1_sandbox.jpg)
+![Manual Sandbox Tab](assets/screenshots/screenshot_tab1_sandbox.jpg)
 
 **Tab 2 — Batch Audit:** Run full dataset evaluations with real-time log streaming and auto report generation.
 
-![Batch Audit Tab](docs/screenshots/screenshot_tab2_batch.jpg)
+![Batch Audit Tab](assets/screenshots/screenshot_tab2_batch.jpg)
 
 ---
 
